@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:32 +0530] "GET / HTTP/1.1" 200 128 http-bio-8080-exec-1 186
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:32 +0530] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-3 18
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:38 +0530] "GET /login HTTP/1.1" 200 706 http-bio-8080-exec-4 24
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:46 +0530] "POST /perform_login HTTP/1.1" 302 - http-bio-8080-exec-5 422
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:46 +0530] "GET /login HTTP/1.1" 200 706 http-bio-8080-exec-7 23
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:53 +0530] "POST /perform_login HTTP/1.1" 302 - http-bio-8080-exec-8 91
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:14:53 +0530] "GET /login HTTP/1.1" 200 721 http-bio-8080-exec-9 6
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:15:00 +0530] "POST /perform_login HTTP/1.1" 302 - http-bio-8080-exec-10 12
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:15:00 +0530] "GET /login HTTP/1.1" 200 706 http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:18:33 +0530] "POST /perform_login HTTP/1.1" 302 - http-bio-8080-exec-2 36
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:18:33 +0530] "GET /welcome HTTP/1.1" 200 128 http-bio-8080-exec-7 10
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:18:43 +0530] "GET /welcome/adin HTTP/1.1" 404 949 http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:18:49 +0530] "GET /welcome/admin HTTP/1.1" 404 949 http-bio-8080-exec-9 9
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:19:03 +0530] "GET /admin HTTP/1.1" 200 333 http-bio-8080-exec-10 103
+0:0:0:0:0:0:0:1 - - [08/Jun/2019:14:19:07 +0530] "GET /j_spring_security_logout HTTP/1.1" 404 949 http-bio-8080-exec-10 6
